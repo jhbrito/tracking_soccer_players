@@ -114,16 +114,16 @@ class MOT17Sequence(Dataset):
                 reader = csv.reader(inf, delimiter=',')
                 for row in reader:
                     # class person, certainity 1, visibility >= 0.25
-                    if int(row[6]) == 1 and int(row[7]) == 1 and float(row[8]) >= self._vis_threshold:
+                    if int(row[6]) == -1 and int(row[7]) == -1:
                         # Make pixel indexes 0-based, should already be 0-based (or not)
-                        x1 = int(row[2]) - 1
-                        y1 = int(row[3]) - 1
+                        x1 = float(row[2]) - 1
+                        y1 = float(row[3]) - 1
                         # This -1 accounts for the width (width of 1 x1=x2)
-                        x2 = x1 + int(row[4]) - 1
-                        y2 = y1 + int(row[5]) - 1
-                        bb = np.array([x1,y1,x2,y2], dtype=np.float32)
+                        x2 = x1 + float(row[4]) - 1
+                        y2 = y1 + float(row[5]) - 1
+                        bb = np.array([x1,y1,x2,y2], dtype=np.float64)
                         boxes[int(row[0])][int(row[1])] = bb
-                        visibility[int(row[0])][int(row[1])] = float(row[8])
+                        visibility[int(row[0])][int(row[1])] = 1
         else:
             no_gt = True
 

@@ -9,8 +9,7 @@ _sets = {}
 
 
 # Fill all available datasets, change here to modify / add new datasets.
-for split in ['train', 'test', 'all', '01', '02', '03', '04', '05', '06', '07', '08', '09',
-              '10', '11', '12', '13', '14']:
+for split in ['train', 'test', 'all', '01', '02', '03', '04', '05', '06', '07', '08',  '12', '14','0V','video']:
     for dets in ['DPM16', 'DPM_RAW16', 'DPM17', 'FRCNN17', 'SDP17', '17', '']:
         name = f'mot17_{split}_{dets}'
         _sets[name] = (lambda *args, split=split,

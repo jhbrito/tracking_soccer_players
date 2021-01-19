@@ -14,7 +14,7 @@ from tracktor.datasets.factory import Datasets
 from tracktor.reid.resnet import resnet50
 
 ex = Experiment()
-ex.add_config('experiments/cfgs/reid.yaml')
+ex.add_config('C:/Users/EloiMartins/PycharmProjects/tracking_wo_bnw/experiments/cfgs/reid.yaml')
 
 Solver = ex.capture(Solver, prefix='reid.solver')
 
@@ -28,8 +28,8 @@ def my_main(_config, reid):
 
     print(_config)
 
-    output_dir = osp.join(get_output_dir(reid['module_name']), reid['name'])
-    tb_dir = osp.join(get_tb_dir(reid['module_name']), reid['name'])
+    output_dir = 'D:/emartins/reiddd'
+    tb_dir = 'D:/emartins/reiddd'
 
     sacred_config = osp.join(output_dir, 'sacred_config.yaml')
 
@@ -56,7 +56,7 @@ def my_main(_config, reid):
     # Initialize the modules #
     ##########################
     print("[*] Building CNN")
-    network = resnet50(pretrained=True, **reid['cnn'])
+    network = resnet50(pretrained=False, **reid['cnn'])
     network.train()
     network.cuda()
 
