@@ -34,11 +34,11 @@ Tracktor instalation:
 - Next after make " cd " to the directory where installed do : " pip install -e . "
 - The folder "data" and "Output" need to be download in order to have our models pretrained in our dataset. it can be downloaded the original dataset and output from https://github.com/phil-bergmann/tracking_wo_bnw, or our:
 
-##### Data
+###### Data
+ https://drive.google.com/file/d/1j4Agbv4ckyN3YQx6jsxfu6VC4DQAOUuL/view?usp=sharing
 
-
-
-##### Output
+###### Output
+https://drive.google.com/file/d/1DhASFRgtnxoawvC8F05na4-PFLTEMaEx/view?usp=sharing
 
 
 - After all run " test_trackor" , maube it will ask you some modules like Tqmd , sacred ,opencv-python (cv2). if that problem occur go to requirements.txt, check the version needed for each and install 1 by one. 
