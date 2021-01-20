@@ -1,4 +1,4 @@
-![alt text](https://github.com/Eloi-14855/tracking_soccer_players/blob/[branch]/Example_of_results.jpg?raw=true
+![alt text](https://github.com/Eloi-14855/tracking_soccer_players/blob/tracking_soccer/Example_of_results.jpg?raw=true
 
 The file "Detectron " is the script that is related to the creation of the detection dataset. is better to be implemented on a new project because of the version differences to Tracktor.
 The instalation of Detectron2 on windows can be done like explained here : https://dgmaxime.medium.com/how-to-easily-install-detectron2-on-windows-10-39186139101c
