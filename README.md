@@ -1,6 +1,7 @@
+## In this project we present the code part of our project " Tracking soccer players in low-quality videos"
+
 ![alt text](https://github.com/Eloi-14855/tracking_soccer_players/blob/tracking_soccer/Example_of_results.jpg?raw=true)
 
-###### In this project we present the code part of our project " Tracking soccer players in low-quality videos"
 
 # Instalation of Detectron 2
 The file "Detectron " is the script that is related to the creation of the detection dataset. is better to be implemented on a new project because of the version differences to Tracktor.
