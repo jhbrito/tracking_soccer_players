@@ -1,4 +1,4 @@
-![alt text](https://github.com/Eloi-14855/tracking_soccer_players/blob/tracking_soccer/Example_of_results.jpg?raw=true
+![alt text](https://github.com/Eloi-14855/tracking_soccer_players/blob/tracking_soccer/Example_of_results.jpg?raw=true)
 
 ![alt text](https://ibb.co/FK9zsbs)
 
