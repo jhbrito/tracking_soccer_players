@@ -1,4 +1,4 @@
-### In this repositorie we present the code part of our project " Tracking soccer players in low-quality videos"
+### In this repositorie we present the code part of our project "Tracking soccer players in low-quality videos"
 
 ![alt text](https://github.com/Eloi-14855/tracking_soccer_players/blob/tracking_soccer/Example_of_results.jpg?raw=true)
 
