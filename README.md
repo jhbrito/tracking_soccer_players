@@ -1,17 +1,35 @@
-### In this repositorie we present the code part of our project " Tracking soccer players in low-quality videos"
+### Tracking Soccer Players (in low quality video)
 
-![alt text](https://github.com/Eloi-14855/tracking_soccer_players/blob/tracking_soccer/Example_of_results.jpg?raw=true)
+Elói Martins
 
+José Henrique Brito
+
+## Description
+ 
+In this repository we present our project "Tracking soccer players in low-quality videos"
+
+This repository contains:
+- dataset with player tracking groundtruth data: https://drive.google.com/file/d/1j4Agbv4ckyN3YQx6jsxfu6VC4DQAOUuL/view?usp=sharing
+
+- a prototype application for tracking soccer players in low quality video
+
+If you use this work please cite:
+
+Eloi Martins (2020), "Soccer Player Tracking in Low Quality Video", BsC project, School of Technology, Polytechnical Institute of Cávado and Ave 
+
+![tracking results](https://github.com/Eloi-14855/tracking_soccer_players/blob/tracking_soccer/Example_of_results.jpg?raw=true)
+
+The code relies on the use of Detectron2 and Tracktor
 
 # Instalation of Detectron 2
 The file "Detectron " is the script that is related to the creation of the detection dataset. is better to be implemented on a new project because of the version differences to Tracktor.
 
 The instalation of Detectron2 on windows can be done like explained here : https://dgmaxime.medium.com/how-to-easily-install-detectron2-on-windows-10-39186139101c
 
-# instalation of Tracktor
+# Instalation of Tracktor
 Tracktor instalation:
 
-- Tracktor isnstallation needs to follow a specific way to work on pycharm windowns
+- Tracktor installation needs to follow a specific way to work on Pycharm/Windows
 
 - Create a virtual invironment on anaconda:
 
@@ -35,7 +53,7 @@ Tracktor instalation:
 - The folder "data" and "Output" need to be download in order to have our models pretrained in our dataset. it can be downloaded the original dataset and output from https://github.com/phil-bergmann/tracking_wo_bnw, or our:
 
 ###### Data
- https://drive.google.com/file/d/1j4Agbv4ckyN3YQx6jsxfu6VC4DQAOUuL/view?usp=sharing
+https://drive.google.com/file/d/1j4Agbv4ckyN3YQx6jsxfu6VC4DQAOUuL/view?usp=sharing
 
 ###### Output
 https://drive.google.com/file/d/1DhASFRgtnxoawvC8F05na4-PFLTEMaEx/view?usp=sharing
