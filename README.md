@@ -1,17 +1,13 @@
-### Tracking Soccer Players (in low quality video)
+### Tracking Soccer Players in low quality video
 
 Elói Martins
 
 José Henrique Brito
 
-
 ## Description
  
-In this repository we present our project "Tracking soccer players in low-quality videos"
-
 This repository contains:
-- dataset with player tracking groundtruth data: https://drive.google.com/file/d/1j4Agbv4ckyN3YQx6jsxfu6VC4DQAOUuL/view?usp=sharing
-
+- dataset with video in 3 quality levels with player tracking groundtruth data
 - a prototype application for tracking soccer players in low quality video
 
 If you use this work please cite:
