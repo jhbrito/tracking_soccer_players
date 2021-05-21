@@ -4,6 +4,7 @@ Elói Martins
 
 José Henrique Brito
 
+
 ## Description
  
 In this repository we present our project "Tracking soccer players in low-quality videos"
