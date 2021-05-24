@@ -4,6 +4,8 @@ Elói Martins
 
 José Henrique Brito
 
+![tracking results](https://github.com/Eloi-14855/tracking_soccer_players/blob/tracking_soccer/Example_of_results.jpg?raw=true)
+
 ## Description
  
 This repository contains:
@@ -13,8 +15,6 @@ This repository contains:
 If you use this work please cite:
 
 Eloi Martins (2020), "Soccer Player Tracking in Low Quality Video", BsC project, School of Technology, Polytechnical Institute of Cávado and Ave 
-
-![tracking results](https://github.com/Eloi-14855/tracking_soccer_players/blob/tracking_soccer/Example_of_results.jpg?raw=true)
 
 The code relies on the use of Detectron2 and Tracktor
 
