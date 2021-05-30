@@ -14,7 +14,7 @@ This repository contains:
 
 If you use this work please cite:
 
-Eloi Martins (2020), "Soccer Player Tracking in Low Quality Video", BsC project, School of Technology, Polytechnical Institute of Cávado and Ave 
+Eloi Martins, José Henrique Brito (2021), Soccer Player Tracking in Low Quality Video, arXiv 2021 https://arxiv.org/abs/2105.10700
 
 The code relies on the use of Detectron2 and Tracktor
 
