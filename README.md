@@ -44,7 +44,8 @@ Tracktor instalation:
 
 - Confirm if the packages are all installed
 
-- Through the terminal install my git hub: " git clone https://github.com/Eloi-14855/tracking_soccer_players.git "
+- Through the terminal install my git hub: " git clone https://github.com/jhbrito/tracking_soccer_players.git" 
+<!--- https://github.com/Eloi-14855/tracking_soccer_players.git -->
 
 - Next after make " cd " to the directory where installed do : " pip install -e . "
 - The folder "data" and "Output" need to be download in order to have our models pretrained in our dataset. it can be downloaded the original dataset and output from https://github.com/phil-bergmann/tracking_wo_bnw, or our:
